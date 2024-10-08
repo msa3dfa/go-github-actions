@@ -15,4 +15,4 @@ WORKDIR /app
 
 COPY --from=builder app .
 
-CMD["app"]
+CMD ["app"]
